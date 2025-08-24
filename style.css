@@ -1,0 +1,60 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  width: 100%;
+  background: white;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+header {
+  background: #5472B2;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 48px;
+  text-align: center;
+  padding: 20px;
+}
+
+article {
+  background: #FFDB70;
+  padding: 20px;
+  margin: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form-row label {
+  width: 150px;
+}
+.form-row input, .form-row select {
+  flex: 1;
+  padding: 5px;
+}
+
+fieldset {
+  border: 2px ridge gray;
+  padding: 20px;
+  margin: 10px;
+}
+
+#errorBox {
+  color: red;
+  margin: 10px;
+}
+
+input[type="submit"] {
+  margin: 20px;
+  padding: 10px;
+}
